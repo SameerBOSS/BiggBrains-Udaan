@@ -1,0 +1,22 @@
+h1{
+	color: red;
+}
+/*ID SELECTOR*/
+#tanmay{
+	background: peachpuff;
+	padding: 8PX;
+}
+/*CLASS*/
+
+.mehra{
+background: lightgoldenrodyellow;
+BORDER border-radius: 8PX;
+border: 1PX solid gray;
+padding-left: 32px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+#p1{
+	background-color: ;
+}

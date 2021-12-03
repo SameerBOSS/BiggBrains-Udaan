@@ -1,0 +1,15 @@
+table{
+	width: 90%
+	margin: 5%;
+}
+th{
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 8px;
+	background-color: red;
+	border-radius: 13px;
+}
+th{
+	background-color: darkblue;
+	color: peachpuff;
+}
