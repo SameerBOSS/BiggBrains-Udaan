@@ -1,0 +1,13 @@
+table{
+	width: 90%;
+	margin: 5%;
+	border-collapse: collapse;
+}
+tr{
+	border-collapse: collapse;
+	padding: 8px;
+	background-color: lightcyan;
+	border-radius: 4px;
+	text-align: center;
+}
+

@@ -8,4 +8,4 @@ if(a<b && a<c){
 	console.log("b => "+b)
 }else{
 	console.log("c => "+c)
-}
+{

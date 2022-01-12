@@ -7,3 +7,22 @@ if(cost > accountbalance){
 }else{
 	console.log("aaia aapka intazar haaaa")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
