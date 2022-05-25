@@ -1,19 +1,17 @@
 {
-  "name": "sameer",
+  "name": "god",
   "version": "1.0.0",
-  "description": "hi i am sameer",
+  "description": "i am god",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start":"nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "hi",
-    "i",
-    "am",
-    "sameer"
+    "hello"
   ],
-  "author": "sameer",
+  "author": "god",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",

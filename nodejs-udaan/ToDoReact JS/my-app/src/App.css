@@ -1,0 +1,48 @@
+.my-body{
+  margin: 24px;
+}
+table{
+	width: 90%;
+	margin: 5%;
+	border-collapse: collapse;
+}
+tr{
+	border-collapse: collapse;
+	padding: 16px;
+	background-color: lightcyan;
+	border-radius: 8px;
+	text-align: center;
+}
+.card{
+  margin: 8px;
+  padding: 16px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  border-radius: 16px;
+}
+label, input{
+  margin: 4px;
+  border-radius: 8px;
+  padding: 4px 16px;
+}
+button{
+  padding: 4px 16px;
+  margin: 4px;
+  border-width: 2px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  border-radius: 8px;
+  border-color: gray;
+  transform: translateY(2px);
+}
+
+button:hover {background-color: #33ace4}
+
+button:active {
+  background-color: #2da4db;
+  box-shadow:  0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  border-width: 4px;
+  padding: 2px 14px;
+  border-color: gray;
+
+  margin: 4px;
+  transform: translateY(2px);
+}
