@@ -6,10 +6,31 @@ table{
 	margin: 5%;
 	border-collapse: collapse;
 }
-tr{
+tbody > tr{
 	border-collapse: collapse;
 	padding: 16px;
-	background-color: lightcyan;
+	background-color: rgb(237, 255, 254); 
+	border-radius: 8px;
+	text-align: center;
+}
+tbody > tr:hover{
+	border-collapse: collapse;
+	padding: 16px;
+	background-color: rgb(18, 224, 218); 
+	border-radius: 8px;
+	text-align: center;
+}
+thead > tr{
+	border-collapse: collapse;
+	padding: 16px;
+	background-color: rgb(0, 246, 234); 
+	border-radius: 8px;
+	text-align: center;
+}
+thead > tr:hover{
+	border-collapse: collapse;
+	padding: 16px;
+	background-color: rgb(1, 187, 180); 
 	border-radius: 8px;
 	text-align: center;
 }
@@ -28,20 +49,20 @@ button{
   padding: 4px 16px;
   margin: 4px;
   border-width: 2px;
-  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  box-shadow:  0 4px 8px 0 rgba(10, 59, 236, 0.2), 0 6px 20px 0 rgba(225, 9, 9, 0.19) ;
   border-radius: 8px;
-  border-color: gray;
+  border-color: rgb(13, 0, 0);
   transform: translateY(2px);
 }
 
-button:hover {background-color: #33ace4}
+button:hover {background-color: #e4f30d}
 
 button:active {
-  background-color: #2da4db;
-  box-shadow:  0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  background-color: #0d3deb;
+  box-shadow:  0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(226, 13, 13, 0.19) ;
   border-width: 4px;
   padding: 2px 14px;
-  border-color: gray;
+  border-color: rgb(244, 27, 27);
 
   margin: 4px;
   transform: translateY(2px);
