@@ -3,7 +3,7 @@
 }
 table{
 	width: 90%;
-	margin: 5%;
+	margin: 9%;
 	border-collapse: collapse;
 }
 tbody > tr{
@@ -19,6 +19,8 @@ tbody > tr:hover{
 	background-color: rgb(18, 224, 218); 
 	border-radius: 8px;
 	text-align: center;
+	border-radius: 50%;
+	
 }
 thead > tr{
 	border-collapse: collapse;
@@ -33,12 +35,18 @@ thead > tr:hover{
 	background-color: rgb(1, 187, 180); 
 	border-radius: 8px;
 	text-align: center;
+	align-items: center;
+
 }
 .card{
   margin: 8px;
   padding: 16px;
-  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  box-shadow:  0 4px 8px 0 rgb(2, 0, 13), 0 6px 20px 0 rgb(12, 0, 0) ;
   border-radius: 16px;
+  align-items: center;
+  width: 100%;
+  margin:"auto"
+
 }
 label, input{
   margin: 4px;
@@ -58,12 +66,173 @@ button{
 button:hover {background-color: #e4f30d}
 
 button:active {
-  background-color: #0d3deb;
+  background-color: #ec0505;
   box-shadow:  0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(226, 13, 13, 0.19) ;
   border-width: 4px;
   padding: 2px 14px;
-  border-color: rgb(244, 27, 27);
+  border-color: rgb(67, 27, 244);
 
   margin: 4px;
   transform: translateY(2px);
 }
+
+.login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	background-image: url("https://wallpaperaccess.com/full/427966.jpg");
+}
+
+.register{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;}
+
+.chat_right2{
+	text-align: center;
+	border-style: solid;
+	margin-right: 8%;
+	margin-left: 40%;
+	padding: 15px;  
+	box-shadow:  0 4px 8px 0 rgba(10, 59, 236, 0.2), 0 6px 20px 0 rgba(225, 9, 9, 0.19) ;
+	border-color: #25D366;
+	border-radius: 15px;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUl02aXOOtgAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=");
+  }
+
+  .chat_left1{
+	text-align: center;
+	border-style: solid;
+	margin-left: 8%;
+	margin-right: 40%;
+	padding: 15px;
+	border-color: #ffffff;
+	border: 20%;
+	border-radius: 16px;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeA8XKAAFZcBBuAAAAAElFTkSuQmCC");
+  }
+
+  .button_form{	
+	background-color: #ffffff;
+	border: none;
+	width: 55%;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 90%;
+	margin: 10px 10px; 
+  }
+
+  .management{
+	background-image: url(https://i.pinimg.com/originals/85/70/f6/8570f6339d3189c96e340d47a581d3b8.jpg); 
+	margin: 30%;
+	background-color: #000000;
+ }
+
+ .App {
+	text-align: center;
+  }
+  
+  .App-logo {
+	height: 40vmin;
+	pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+	  animation: App-logo-spin infinite 20s linear;
+	}
+  }
+  
+  .App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+  }
+  
+  .App-link {
+	color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  
+  .chat-view {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 92vh;
+  }
+  
+  .chat-box {
+	width: 100%;
+	height: 100%;
+	max-width: 600px;
+	background-color: #61dafb;
+	background-image: url("https://www.gannett-cdn.com/-mm-/05e97d16e7fb53439a4222e53dcba47d4d31dde8/c=0-97-1280-584/local/-/media/USATODAY/USATODAY/2014/06/04/1401911998000-AP-Color-Cosmos.jpg?width=3200&height=1680&fit=crop");
+  }
+  
+  .chat-list {
+	width: 100%;
+	height: 90%;
+	max-width: 600px;
+	border-radius: 10px;
+	padding: 10px;
+	overflow-y: scroll;
+  }
+  
+  .chat-1 {
+	background-color: white;
+	margin: 12px;
+	margin-right: 30%;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	padding: 12px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .chat-2 {
+	background-color: white;
+	margin: 8px;
+	margin-left: 30%;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .msg-input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 10%;
+	margin: 10px;
+	border-radius: 5%;
+	border: #282c34;
+  }
+
